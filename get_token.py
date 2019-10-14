@@ -98,7 +98,6 @@ def main(client_id, client_secret, scopes):
 
 
 if __name__ == '__main__':
-  # TODO: get credentials from file that is not tracked in the project
   credentials = utils.load_settings('googleads.yaml')
   print('credentials: ', credentials)
   client_id = credentials['adwords']['client_id']
